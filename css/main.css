@@ -159,6 +159,19 @@
         display: inline;
     }
 
+    .more-info .button{
+        display: inline-block;
+        background: #4587a1;
+        color: #fff;
+        margin: .5em;
+    }
+
+    .more-info .button:hover{
+        background: #c5eaf8;
+        color: #4587a1;
+        border-color: #c5eaf8;
+    }
+
 
 
 /*
