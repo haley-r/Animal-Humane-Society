@@ -41,6 +41,10 @@
         text-decoration: none;
     }
 
+    p{
+        padding:.5em;
+    }
+
     ul{
         list-style-type:none;
         padding: 0;
