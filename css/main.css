@@ -120,9 +120,13 @@
     .featured-friends article{
         border: 5px solid #4587a1;
         border-radius: 2em;
-        margin: 2em;
+        margin: 0 2em 2em 0;
         width: 250px;
         display: inline-block;
+    }
+
+    .featured-friends p{
+        font-size: .9em;
     }
 
     .button-box{
@@ -145,6 +149,14 @@
     .button-box .button:hover{
         color: #c5eaf8;
         border: 5px solid #c5eaf8;
+    }
+
+    article.show-all{
+        width: 90%;
+    }
+
+    .show-all .more-info{
+        display: inline;
     }
 
 
