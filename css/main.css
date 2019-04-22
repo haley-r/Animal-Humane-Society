@@ -12,11 +12,75 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
-    color: #222;
+/*Sitewide Rules*/
+
+    html {
     font-size: 1em;
     line-height: 1.4;
-}
+    }
+
+    body{
+        margin-top: 500px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    a{
+        color:inherit;
+        text-decoration: none;
+    }
+
+    ul{
+        list-style-type:none;
+    }
+
+/*Header, Footer, and Nav Rules*/
+
+    header, footer{
+        width: 100%;
+        text-align: center;
+        background: #c5eaf8;
+        padding: .25em;
+    }
+
+    .main-nav li{
+        display: inline;
+        font-size: .8em;
+        line-height: 2.5em;
+        padding: .5em;
+        margin: 0 .25em;
+        background: #4587a1;
+        border-radius: 1em;
+        color: #fff;
+    }
+
+    .main-nav li:hover{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    header{
+        position: fixed;
+        top: 0;
+        padding-top: 1em;
+    }
+
+    h1{
+        display:none;
+    }  
+
+    img header{
+        display: block;
+        padding: 0 auto;
+    }
+
+    footer p{
+        font-style: italic;
+        font-size: .75em;
+    }
+
+    section{
+        display:none;
+    }
 
 /*
  * Remove text-shadow in selection highlight:
